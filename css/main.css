@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap');
 :root{
     --title-principal: #000000;
     --menu-options: #F2D7D5;
@@ -11,7 +12,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 12px;
 }
 section{
@@ -76,7 +77,104 @@ header .navigation li a:hover{
     position: relative;
     max-width: 600px;
 }
-.content .text-info h2{
+.text__info-title{
     font-size: 3em;
-    font-family: 'Andika New Basic', sans-serif;
+    margin-bottom: .5em;
+    line-height: 1.4em;
+    font-weight: 700;
+}
+.text__info-description{
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-bottom: 4em;
+}
+a{
+    text-decoration: none;
+}
+.cta{
+    color: #FDEDEC;
+    background: #e01032;
+    padding: 1.2em 2em;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: .2em;
+}
+.cta:hover{
+    transition: .2s;
+    background: #F2D7D5;
+    color: #e01032;
+    border: 1px solid #e01032;
+}
+.sci{
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sci li{
+    list-style: none;
+}
+.sci li a{
+    display: inline-flex;
+    margin-left: 20px;
+    border: 1px solid #e01032;
+    background: #e01032;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.iconR{
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.sci li a:hover{
+    transition: .3s ease;
+    transform: translateY(-5px);
+}
+.swiper-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-wrapper{
+    display: flex;
+    align-items: center;
+}
+.swiper-slide {
+    width: 180px !important;
+    height: 340px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) scale(1);
+}
+.content .imgBox{
+    overflow: hidden;
+    width: 600px;
+    height: 100%;
+}
+.content .imgBox img{
+    max-width: 300px;
+}
+.swiper-slide img{
+    position: absolute;
+    bottom: 0;
+    max-height: 100%;
+}
+.swiper-3d .swiper-slide-shadow-left {
+    background-image: none !important;
+}
+.swiper-3d .swiper-slide-shadow-right{
+    background-image: none !important;
 }

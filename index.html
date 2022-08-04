@@ -1,33 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Postobon</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Postobon</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <section>
-        <div class="circle"></div>
-        <header>
-            <a href="">
-                <img src="img/logo-postobon-compressor.png"alt="logo" class="logo">
-            </a>
-            <ul class="navigation">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">What's new</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </header>
-        <div class="content">
-            <div class="text-info">
-                <h2>¿Cuál es el sabor de la Navidad?</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid at sed suscipit sequi quasi assumenda dicta, optio modi aliquam perspiciatis veniam numquam ab nulla culpa. Minus enim illo beatae eveniet!</p>
-                <a href="#">Learn more</a>
+  <section>
+    <div class="circle"></div>
+    <header>
+      <a href="">
+        <img src="img/logo-postobon-compressor.png" alt="logo" class="logo">
+      </a>
+      <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">What's new</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+    <div class="content">
+      <div class="text-info">
+        <h2 class="text__info-title">¿Cuál es el sabor de la Navidad?</h2>
+        <p class="text__info-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid at sed
+          suscipit sequi quasi assumenda dicta, optio modi aliquam perspiciatis veniam numquam ab nulla culpa. Minus
+          enim illo beatae eveniet!</p>
+        <a href="#" class="cta">Learn more</a>
+      </div>
+      <div class="imgBox">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/1.png" />
             </div>
+            <div class="swiper-slide">
+              <img src="img/2.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/3.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/4.png" />
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+    <ul class="sci">
+      <li><a href="#">
+          <ion-icon name="logo-facebook" class="iconR"></ion-icon>
+        </a></li>
+      <li><a href="#">
+          <ion-icon name="logo-twitter" class="iconR"></ion-icon>
+        </a></li>
+      <li><a href="#">
+          <ion-icon name="logo-instagram" class="iconR"></ion-icon>
+        </a></li>
+    </ul>
+  </section>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
